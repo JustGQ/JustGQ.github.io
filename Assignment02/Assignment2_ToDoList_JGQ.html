@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	
+	<script src="Assignment2_JGQ.js"></script>
+
+	<title> To-Do List</title>
+
+</head>
+<body>
+
+	<h1> To-Do List </h1>
+
+	<form id="new-todo">
+		<input id="task" autocomplete="off" autofocus placeholder="Type To-Do List Here" type="text">
+		<br>
+		<br>
+
+		<!-Select tag used for selecting the priority of the to-do item->
+		<label for="priority"> What is the priority of your task? </label>
+		<br>
+		<select id="priority" name="priority"> 
+			<option value="high-priority"> High-Priority </option>
+			<option value="medium-priority"> Medium-Priority </option>
+			<option value="low-priority"> Low-Priority </option>
+		</select>
+		<br>
+		<br>
+
+		<h4>Is your task completed or pending?</h4>
+		<!-Completed radio button and label->
+		<input id="status-completed" type="radio" value="status-completed">
+		<label for="status-completed"> Completed </label>
+		<br>
+
+		<!-Pending radio button and label->
+		<input id="status-pending" type="radio" value="status-pending">
+		<label for="status-pending"> Pending </label>
+		<br>
+		<br>
+
+		<input id="submit" type="submit" value="Add To-Do Item">
+	</form>
+
+	<ul id="todo_list">
+		
+	</ul>
+
+</body>
